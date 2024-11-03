@@ -8,7 +8,7 @@ trigger:
 
 pool:
   name: "mytest"
-  demands: agent.os -equals Windows
+  # demands: agent.os -equals Windows
 
 steps:
 - task: Maven@3
