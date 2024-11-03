@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: mytest
+  vmImage: DESKTOP-5V8C9LO
 
 steps:
 - task: Maven@3
