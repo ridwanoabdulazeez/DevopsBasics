@@ -7,7 +7,8 @@ trigger:
 - master
 
 pool:
-  vmImage: DESKTOP-5V8C9LO
+  name: "mytest"
+  demands: agent.os -equals Windows
 
 steps:
 - task: Maven@3
